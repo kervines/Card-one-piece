@@ -1,0 +1,60 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 18px rgb(29, 32, 53);
+  width: 400px;
+}
+
+.mediaCard {
+  background: url(https://criticalhits.com.br/wp-content/uploads/2021/04/ASL.jpg) center/cover;
+  height: 250px;
+  width: 100%;
+  
+}
+
+.title {
+  font-size: 25px;
+  color: rgb(2 88 140);
+}
+
+.sencondText {
+  color: #076ba0;
+}
+
+.bottomText {
+  color: black
+}
+
+.topCard {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.bottomCard {
+  padding: 20px;
+}
+
+.actions {
+  background: none;
+  border: none;
+  color: blueviolet;
+}
